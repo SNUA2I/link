@@ -110,9 +110,9 @@ def display_prompts():
             actual_content = '\n'.join(content_lines[1:]).strip()
             st.markdown(f"<a name='{anchor}'></a>", unsafe_allow_html=True)
             st.subheader(title)
-            st.markdown("```
-" + actual_content + "
-```")
+            st.markdown(f"""```
+{actual_content}
+```""")
             st.markdown("---")
 
 # 메인 함수
