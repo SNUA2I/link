@@ -17,9 +17,8 @@ def prepare_data():
     """링크 데이터를 파싱하여 카테고리별로 정리합니다."""
     data = """
 <<Colab 링크>>
---- 기온 예측: 회귀 분석--------------------------------------------------------------
+--- 기온 예측: 회귀 분석 --------------------------------------------------------------
 https://colab.research.google.com/drive/13bf1n2xh2opMa1KUa_qkZ9gyPyL2LRy2?usp=sharing
-
     """
 
     categories = defaultdict(list)
